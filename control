@@ -1,0 +1,9 @@
+Package: com.gilshahar7.gatecaller
+Name: GateCaller
+Depends: mobilesubstrate
+Version: 1.0
+Architecture: iphoneos-arm
+Description: An activator action that will trigger when a reminder with the title "GateCaller" is fired.
+Maintainer: gilshahar7 <gilshahardex99@gmail.com>
+Author: gilshahar7 <gilshahardex99@gmail.com>
+Section: Tweaks
