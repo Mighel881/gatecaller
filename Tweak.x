@@ -5,17 +5,11 @@
 static NSString *kGateCaller_eventName = @"GateCaller";
 
 @interface BBBulletin : NSObject
-@property (copy) NSString * title;
-@property (copy) NSString * message;
-@property (nonatomic,copy) NSString * publisherBulletinID;
-@property (copy) NSString * bulletinID;
-@property (copy) NSString * sectionID;
-@property (nonatomic,copy) NSString * recordID;
-@property (nonatomic,retain) NSDate * date;
 -(NSString *)section;
+-(NSString *)title;
 @end
 
-
+//ACTIVATOR CODE
 @interface GateCallerDataSource : NSObject <LAEventDataSource> {}
 + (id)sharedInstance;
 @end
@@ -57,7 +51,7 @@ static NSString *kGateCaller_eventName = @"GateCaller";
 	[LASharedActivator unregisterEventDataSourceWithEventName:kGateCaller_eventName];
 }
 @end
-
+//ACTIVATOR CODE END
 
 
 
